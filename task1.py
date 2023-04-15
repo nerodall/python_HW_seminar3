@@ -9,12 +9,12 @@
 import random
 
 x = int(input("Введите искомое число: "))
-my_list = [random.randint(1,10) for i in range(1,10)]
+my_list = [random.randint(1, 10) for i in range(1, 10)]
 result = 0
 
 for i in range(len(my_list)):
     if my_list[i] == x:
-        result+=1
+        result += 1
 
 print(my_list)
 print(f"число {x} встречается {result} раз в списке")

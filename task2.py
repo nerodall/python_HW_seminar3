@@ -23,6 +23,7 @@ for i in range(len(my_list)):
     if difference < 0:
         difference = difference * -1
     result_list.append(difference)
+
    # print(difference)
 
 min_value = result_list[0]
